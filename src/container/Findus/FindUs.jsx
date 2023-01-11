@@ -26,13 +26,16 @@ const FindUs = () => (
         <p className="p__opensans">Mon-Sun: 11am - 11pm</p>
       </div>
 
-      <button
+      <a
         type="button"
-        className="custom__button"
         style={{ marginTop: "2rem" }}
+        className="custom__button"
+        target="_blank"
+        href="https://www.google.com/maps/place/13%C2%B003'13.9%22N+80%C2%B013'12.5%22E/@13.0538553,80.2195778,19z/data=!3m1!4b1!4m6!3m5!1s0x0:0x1b0cb11758b638fc!7e2!8m2!3d13.0538537!4d80.2201248"
+        rel="noreferrer"
       >
         Visit Us
-      </button>
+      </a>
     </div>
     <div className="app__wrapper_img">
       <img src={chicken65} alt="chicken65" />

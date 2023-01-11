@@ -17,8 +17,12 @@ const Footer = () => (
           Address: old no.62,new 35, Sivan Koil st,Kodambakkam,Chennai,Tamil
           Nadu 600024
         </p>
-        <p className="p__opensans">9894722123</p>
-        <p className="p__opensans">9094010622</p>
+        <a href="tel:+91-9751315280" className="p__opensans">
+          9751315280
+        </a>
+        <a href="tel:+91-9940301727" className="p__opensans">
+          9940301727
+        </a>
       </div>
       <div className="app__footer-links_logo">
         <p className="p__opensans">Yaad Kar Biriyani</p>

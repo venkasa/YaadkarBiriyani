@@ -13,7 +13,6 @@
 }
 
 .app__menuitem-sub {
-  width: 100%;
   margin-top: 0.2rem;
 }
 
@@ -29,6 +28,7 @@
 }
 
 .app__menuitem-price {
+  width: 60px;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;

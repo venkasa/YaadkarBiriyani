@@ -1,82 +1,194 @@
-import images from './images';
+import images from "./images";
 
-const wines = [
+const chinese = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: "Chicken 65 Bone",
+    price: "₹159",
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: "Chicken 65 Boneless",
+    price: "₹199",
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: "Chicken Fried Rice",
+    price: "₹149",
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: "Schezwan Chicken Fried Rice",
+    price: "₹159",
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: "Egg Fried Rice",
+    price: "₹139",
+  },
+  {
+    title: "Schezwan Egg Fried Rice",
+    price: "₹149",
+  },
+  {
+    title: "Veg Fried Rice",
+    price: "₹139",
+  },
+  {
+    title: "Schezwan Veg Fried Rice",
+    price: "₹149",
+  },
+  {
+    title: "Special Chicken Fried Rice",
+    price: "₹169",
+  },
+  {
+    title: "Chicken Noodles",
+    price: "₹149",
+  },
+  {
+    title: "Schezwan Chicken Noodles",
+    price: "₹159",
+  },
+  {
+    title: "Egg Noodles",
+    price: "₹139",
+  },
+  {
+    title: "Schezwan Egg Noodles",
+    price: "₹149",
+  },
+  {
+    title: "Veg Noodles",
+    price: "₹139",
+  },
+  {
+    title: "Schezwan Veg Noodles",
+    price: "₹149",
   },
 ];
 
-const cocktails = [
+const biryani = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: "Yaar Kar Special Chicken Mughalai Biryani",
+    price: "₹259",
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    title: "Qtr Chicken Biryani",
+    price: "₹159",
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    title: "Chicken Biryani",
+    price: "₹179",
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    title: "Chicken Biryani 1kg",
+    price: "₹239",
   },
   {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: "Chicken 65 Biryani",
+    price: "₹229",
+  },
+  {
+    title: "Egg Biryani",
+    price: "₹149",
+  },
+  {
+    title: "Khuska",
+    price: "₹129",
+  },
+];
+
+const dosa = [
+  {
+    title: "Plain Roast",
+    price: "₹59",
+  },
+  {
+    title: "Ghee Roast",
+    price: "₹109",
+  },
+  {
+    title: "Onion Roast",
+    price: "₹89",
+  },
+  {
+    title: "Kal Dosa",
+    price: "₹49",
+  },
+  {
+    title: "Onion Uthappam",
+    price: "₹89",
+  },
+  {
+    title: "Chicken Kari Dosa",
+    price: "₹149",
+  },
+];
+
+const gravy = [
+  {
+    title: "Chicken Manchurian",
+    price: "₹169",
+  },
+  {
+    title: "Ginger Chicken",
+    price: "₹169",
+  },
+  {
+    title: "Garlic Chicken",
+    price: "₹169",
+  },
+  {
+    title: "Chicken Pepper Fry",
+    price: "₹149",
+  },
+  {
+    title: "Prawn Chukka",
+    price: "₹189",
+  },
+  {
+    title: "Chilli Chicken",
+    price: "₹159",
+  },
+  {
+    title: "Chicken Kothu Parota",
+    price: "₹159",
+  },
+  {
+    title: "Egg Kothu Parota",
+    price: "₹139",
+  },
+  {
+    title: "Chicken 65 Kothu Parota",
+    price: "₹159",
+  },
+  {
+    title: "Parota 1Pc",
+    price: "₹27",
+  },
+  {
+    title: "Chapathi 1Pc",
+    price: "₹27",
   },
 ];
 
 const awards = [
   {
     imgUrl: images.award02,
-    title: 'Bib Gourmond',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: "Bib Gourmond",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
   },
   {
     imgUrl: images.award01,
-    title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: "Rising Star",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
   },
   {
     imgUrl: images.award05,
-    title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: "AA Hospitality",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
   },
   {
     imgUrl: images.award03,
-    title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: "Outstanding Chef",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { chinese, biryani, awards, dosa, gravy };

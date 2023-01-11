@@ -98,7 +98,6 @@ gallery__arrow-icon:hover {
 
 @media screen and (max-width: 2000px) {
   .app__gallery-content {
-    min-width: 1000px;
     padding-right: 4rem;
   }
 
